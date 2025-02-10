@@ -12,7 +12,7 @@ int main() {
     printf("First");
    }
    else{
-    printf("Second")
+    printf("Second");
    }
     return 0;
 }
