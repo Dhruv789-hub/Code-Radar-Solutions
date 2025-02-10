@@ -18,7 +18,7 @@ int main() {
     }
     else
     {
-        printf("");
+        printf("%d",a);
     }
     return 0;
 }
