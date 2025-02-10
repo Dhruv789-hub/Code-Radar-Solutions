@@ -7,5 +7,9 @@ int main()
    {
     printf("Divisible by Both");
    }
+   else
+   {
+    printf("Divisible by 3");
+   }
     return 0;
 }
