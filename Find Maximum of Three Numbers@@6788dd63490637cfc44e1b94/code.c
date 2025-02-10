@@ -8,11 +8,11 @@ int main() {
     {
         printf("%d",a);
     }
-     if(b>a && b>c)
+    if(b>a && b>c)
     {
         printf("%d",b);
     }
-     if(c>b && c>a)
+    if(c>b && c>a)
     {
         printf("%d",c);
     }
@@ -20,9 +20,6 @@ int main() {
     {
         printf("%d",a);
     }
-    else
-    {
-        printf("");
-    }
+    
     return 0;
 }
