@@ -87,7 +87,7 @@ int main() {
         if (b != 0)  // Prevent division by zero
             printf("%d\n", a / b);
         else
-            printf("error: division by zero\n");
+            printf("error");
     }
     else {
         printf("error");
