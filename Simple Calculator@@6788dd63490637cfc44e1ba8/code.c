@@ -42,19 +42,20 @@ int main()
     scanf("%c",&ch);
     if(ch== '+')
     {
-        printf("%f",a+b);
+        printf("%d",a+b);
     }
     else if(ch== '-')
     {
-        printf("%f",a-b);
+        printf("%d",a-b);
     }
     else if(ch== '*')
     {
-        printf("%f",a*b);
+        printf("%d",a*b);
     }
     else if(ch== '/')
     {
-        printf("%f",a/b);
+
+        printf("%d",a/b);
     }
     else
     {
