@@ -34,27 +34,27 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    float a,b;
     char ch;
-    scanf("%d",&a);
-    scanf("%d",&b);
+    scanf("%f",&a);
+    scanf("%f",&b);
     getchar();
     scanf("%c",&ch);
     if(ch== '+')
     {
-        printf("%d",a+b);
+        printf("%f",a+b);
     }
     else if(ch== '-')
     {
-        printf("%d",a-b);
+        printf("%f",a-b);
     }
     else if(ch== '*')
     {
-        printf("%d",a*b);
+        printf("%f",a*b);
     }
     else if(ch== '/')
     {
-        printf("%d",a/b);
+        printf("%f",a/b);
     }
     else
     {
