@@ -34,10 +34,10 @@
 #include<stdio.h>
 int main()
 {
-    float a,b;
+    int a,b;
     char ch;
-    scanf("%f",&a);
-    scanf("%f",&b);
+    scanf("%d",&a);
+    scanf("%d",&b);
     getchar();
     scanf("%c",&ch);
     if(ch== '+')
