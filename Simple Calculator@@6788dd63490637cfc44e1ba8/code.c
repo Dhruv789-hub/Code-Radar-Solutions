@@ -3,6 +3,7 @@
 int main()
 {
     int a,b;
+    char ch;
     scanf("%d",&a);
     scanf("%d",&b);
     getchar();
