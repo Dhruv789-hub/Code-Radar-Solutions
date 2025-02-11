@@ -32,35 +32,67 @@
 // }
 //  work as expected.
 #include<stdio.h>
-int main()
-{
-    int a,b;
-    char ch;
-    scanf("%d",&a);
-    scanf("%d",&b);
-    getchar();
-    scanf("%c",&ch);
-    if(ch== '+')
-    {
-        printf("%d",a+b);
-    }
-    else if(ch== '-')
-    {
-        printf("%d",a-b);
-    }
-    else if(ch== '*')
-    {
-        printf("%d",a*b);
-    }
-    else if(ch== '/')
-    {
+// int main()
+// {
+//     int a,b;
+//     char ch;
+//     scanf("%d",&a);
+//     scanf("%d",&b);
+//     getchar();
+//     scanf("%c",&ch);
+//     if(ch== '+')
+//     {
+//         printf("%d",a+b);
+//     }
+//     else if(ch== '-')
+//     {
+//         printf("%d",a-b);
+//     }
+//     else if(ch== '*')
+//     {
+//         printf("%d",a*b);
+//     }
+//     else if(ch== '/')
+//     {
 
-        printf("%d",a/b);
+//         printf("%d",a/b);
+//     }
+//     else
+//     {
+//         printf("error");
+//     }
+//     return 0;
+// }
+#include <stdio.h>
+
+int main() {
+    int a, b;
+    char ch;
+
+    scanf("%d", &a);
+    scanf("%d", &b);
+    getchar(); // Consume newline before reading character
+    scanf("%c", &ch);
+
+    if (ch == '+') {
+        printf("%d\n", a + b);
     }
-    else
-    {
-        printf("error");
+    else if (ch == '-') {
+        printf("%d\n", a - b);
     }
+    else if (ch == '*') {
+        printf("%d\n", a * b);
+    }
+    else if (ch == '/') {
+        if (b != 0)  // Prevent division by zero
+            printf("%d\n", a / b);
+        else
+            printf("error: division by zero\n");
+    }
+    else {
+        printf("error: invalid operator\n");
+    }
+
     return 0;
 }
  
