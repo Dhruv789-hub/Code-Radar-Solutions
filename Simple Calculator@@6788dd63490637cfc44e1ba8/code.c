@@ -90,7 +90,7 @@ int main() {
             printf("error: division by zero\n");
     }
     else {
-        printf("error: invalid operator\n");
+        printf("error");
     }
 
     return 0;
