@@ -6,7 +6,7 @@ int main()
     scanf("%d",&a);
     scanf("%d",&b);
     char ch;
-    scanf(" %c",&ch);
+    scanf("%c",&ch);
     if(ch=='+')
     {
         printf("%d",a+b);
