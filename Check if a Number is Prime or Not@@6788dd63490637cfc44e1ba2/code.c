@@ -1,8 +1,7 @@
-// Your code here...
 #include <stdio.h>
 int main()
 {
-    int n;
+    int n=1,2,3,4,5,6,7,8,9,0;
     scanf("%d",&n);
     a=0;
     for(int i=2;i<=n-1;i++)
@@ -12,12 +11,10 @@ int main()
             a=1;
             break;
         }
+
     }
-    if(n==0 || n==1)
-    {
-        printf("Invalid");
-    }
-    else if(a==0)
+    
+     if(a==0)
     {
         printf(" Prime");
     }
