@@ -13,12 +13,15 @@ int main()
             break;
         }
     }
-    if(a==0)
+    if(n==0 || n==1)
     {
-        printf("Prime");
+        printf("Invalid");
     }
-    else
+    else if(a==0)
     {
+        printf(" Prime");
+    }
+    else{
         printf("Not Prime");
     }
 }
