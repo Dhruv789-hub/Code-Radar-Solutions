@@ -6,6 +6,6 @@ int main()
     scanf("%d",&N);
     for(int i=N;i<=N*10;i=i+N)
     {
-        printf("%d\n",N);
+        printf("%d x %d\n",N,i);
     }
 }
