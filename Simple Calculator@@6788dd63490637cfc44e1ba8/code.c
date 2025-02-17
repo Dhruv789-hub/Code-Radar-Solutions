@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int main() {
@@ -7,7 +6,7 @@ int main() {
 
     scanf("%d", &a);
     scanf("%d", &b);
-    getchar(); // Consume newline before reading character
+     
     scanf("%c", &ch);
 
     if (ch == '+') {
@@ -20,7 +19,7 @@ int main() {
         printf("%d\n", a * b);
     }
     else if (ch == '/') {
-        if (b != 0)  // Prevent division by zero
+        if (b != 0)  
             printf("%d\n", a / b);
         else
             printf("error");
