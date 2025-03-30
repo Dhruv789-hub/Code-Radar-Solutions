@@ -9,12 +9,12 @@ int main()
     { 
       for(int k=1;k<=nsp;k++)
       {
-          printf("  ");
+          printf(" ");
       }
       nsp--;
       for(int j=1;j<=nst;j++)
         {
-            printf("* ");
+            printf("*");
         }
         nst=nst+2;
         printf("\n");
