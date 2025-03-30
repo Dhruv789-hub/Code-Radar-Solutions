@@ -11,8 +11,9 @@ int main()
     {
         printf("* ");
     }
+      a--;
     printf("\n");
-    a--;
+  
  }
 
 
