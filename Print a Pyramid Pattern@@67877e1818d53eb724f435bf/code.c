@@ -2,7 +2,7 @@
 int main()
 {
     int n,nst=1,nsp=3;
-    printf("no. of rows:");
+    
     scanf("%d",&n);
     
     for(int i=1;i<=n;i++)
