@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,nst=1,nsp;
+    int n,no=1,nsp;
     
     scanf("%d",&n);
     nsp=n-1;
@@ -12,11 +12,11 @@ int main()
           printf(" ");
       }
       nsp--;
-      for(int j=1;j<=nst;j++)
+      for(int j=1;j<=no;j++)
         {
             printf("%d ",j);
         }
-        nst=nst+1;
+        no=no+1;
         printf("\n");
     }
 
