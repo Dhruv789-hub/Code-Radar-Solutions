@@ -24,7 +24,7 @@ int main()
         else
         {
             nsp++;
-            nsr-=2;
+            nst-=2;
         }
        
         printf("\n");
