@@ -14,7 +14,7 @@ int main()
      
       for(int j=1;j<=nst;j++)
         {
-            printf("*");
+            printf("* ");
         }
         if(i<ml)
         {
