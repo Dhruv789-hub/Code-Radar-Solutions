@@ -17,4 +17,5 @@ int main(){
         no=no+1;
         printf("\n");
     }
+    return 0;
 }
